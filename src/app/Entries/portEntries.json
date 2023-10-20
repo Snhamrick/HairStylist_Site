@@ -1,0 +1,79 @@
+[{
+    "itemNumber": 1,
+    "src": "../../assets/portfolio1.jpg",
+    "name": "Blonding",
+    "description" : "Modern blonding",
+    "folder" : "",
+    "date" : ""
+},
+
+{
+    "itemNumber": 2,
+    "src": "../../assets/portfolio2.jpg",
+    "name": "Blonding",
+    "description" : "Blonding with root smudge",
+    "folder" : "",
+    "date" : ""
+},
+
+{
+    "itemNumber": 3,
+    "src": "../../assets/portfolio3.jpg",
+    "name": "Lowlights",
+    "description" : "Lowlights of red",
+    "folder" : "",
+    "date" : ""
+},
+
+{
+    "itemNumber": 4,
+    "src": "../../assets/portfolio4.jpg",
+    "name": "Foilayage",
+    "description" : "Mushroom brown foilayage",
+    "folder" : "",
+    "date" : ""
+},
+
+{
+    "itemNumber": 5,
+    "src": "../../assets/portfolio5.jpg",
+    "name": "Foilayage",
+    "description" : "Foilayage with a root smudge",
+    "folder" : "",
+    "date" : ""
+},
+
+{
+    "itemNumber": 6,
+    "src": "../../assets/portfolio6.jpg",
+    "name": "Foilayage",
+    "description" : "Lived in Foilayage",
+    "folder" : "",
+    "date" : ""
+},
+
+{
+    "itemNumber": 7,
+    "src": "../../assets/portfolio7.jpg",
+    "name": "Foilayage",
+    "description" : "Contrasting foilayage",
+    "folder" : "",
+    "date" : ""
+},
+
+{
+    "itemNumber": 8,
+    "src": "../../assets/portfolio8.jpg",
+    "name": "Blonding",
+    "description" : "Modern blonding",
+    "folder" : "",
+    "date" : ""
+},
+{
+    "itemNumber": 9,
+    "src": "../../assets/portfolio9.jpg",
+    "name": "Balayage",
+    "description" : "Classic painted balayage",
+    "folder" : "",
+    "date" : ""
+}]

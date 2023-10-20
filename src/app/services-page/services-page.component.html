@@ -1,0 +1,53 @@
+<div class="container" id="banner">
+    <app-nav-bar></app-nav-bar>
+</div>
+<div class="container">
+    <h1>Your Imagination is my Inspiration!</h1>
+    <h2>Offered Services/Pricing</h2>
+    <div class="container">
+        <table class="center-table">
+            <tr>
+                <th scope="col">Service</th>
+                <th scope="col">Starting Price</th>
+            </tr>
+            <tr *ngFor="let service of entryList">
+                <td (click)="selectService(service)">{{ service.name }}</td>
+                <td (click)="selectService(service)">{{ service.price }}</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>Request an Event</h2>
+        <p>Event requests will be sent as emails. I do my best to check requests as often as I can. Once a request is recieved I will be sure to reach out at my earliest oppurtunity to respond and discuss the request. Thank you in advance for your request and patience!</p>
+        <div class="container" id="requestForm" name="requestForm">
+            <div *ngIf="emailSent === true && submitted === true" class="alert alert-success">
+                Your request has been emailed
+            </div>
+            <div *ngIf="emailSent === false && submitted === true" class="alert alert-success">
+                We were unable to send your request, please try again later or call Salon.
+            </div>
+            <form [formGroup]="requestForm" (ngSubmit)="submitRequest()">
+                <h3>Place Request Here</h3>
+                <div *ngIf="formError" class="alert alert-danger">
+                    {{ formError }}
+                </div>
+                <label for="name">Full Name:</label>
+                <input id="name" type="text" formControlName="name"><br>
+                <label for="email">Email:</label>
+                <input id="email" type="email" formControlName="email"><br>
+                <label for="phone">Phone Number:</label>
+                <input id="phone" type="tel" formControlName="phone"><br>
+                <label for="date">Date of Event:</label>
+                <input id="date" type="date" formControlName="date"><br>
+                <label for="ptySize">Size of Party:</label>
+                <input id="ptySize" type="number" formControlName="ptySize"><br>
+                <label for="address">Event Location:</label>
+                <input id="address" type="address" formControlName="address"><br>
+                <label for="special">Special Requests:</label>
+                <textarea id="special" type="text" formControlName="special" rows="3" cols="25"></textarea><br>
+                <button class="btn-btn-primary" type="submit">Submit Request</button>
+            </form>
+        </div>
+    </div>
+</div>

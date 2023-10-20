@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Full Blonding Foil",
+        "price": "$130",
+        "description":"This is a full blonde experience. This will be based on your natural hair color, texture, length, and your desired blonde. This is a 6 week up keep. "
+    },
+    {
+        "name": "Partrial Blonding Foil",
+        "price": "$110",
+        "description": "This is a good balance once you have achieved your desierd blonde.This is a 6 week up keep."
+    },
+    {
+        "name": "Full Foilayage",
+        "price": "$145",
+        "description": "Think more natural and easier to maintain. This is a 8-10 week up keep."
+    },
+    {
+        "name": "Partial Foilayage",
+        "price": "$125",
+        "description": "Think more natural with a darker base underneath. This is a 8-10 week up keep"
+    },
+    {
+        "name": " Mini Blonding",
+        "price": "$110",
+        "description": "This is focusing hair around the face and a painting technique for the ends of the hair. It is great service for combination in betweeen blonding service.This is a 6-8 week up keep."
+    },
+    {
+        "name": " Lowlight Foil",
+        "price": "$130",
+        "description": "This is taking a darker brown color and creationg depth in the hiar. This is a 6-8 week up keep."
+    },
+    {
+        "name": "Base Color",
+        "price": "90",
+        "description": "This is an all over color more uniform look. This is a 6-8 weeek up keep."
+    },
+    {
+        "name": "Grey Coverage",
+        "price": "$70",
+        "description": "This is covering regrowth to match the rest of the hair. This is a 4-6 week up keep."
+    },
+    {
+        "name": "Glaze/Gloss",
+        "price": "$65",
+        "description": "This is a color boost. It is great for combination in between color services.It also repairs and hydrates the hair.This a 3-4 week up keep."
+    },
+    {
+        "name": "Lightener Retouch",
+        "price": "$110",
+        "description": "This is covering regrowth with lightner to match the rest of the hiar without using foils."
+    }
+]

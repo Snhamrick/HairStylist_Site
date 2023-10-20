@@ -1,0 +1,45 @@
+* {
+    font-family: Georgia, serif;
+}
+
+body {
+    background-color: #fbefda;
+}
+
+h1 {
+    color: #b76e79;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2, h3 {
+    color: #b76e79;
+    font-style: oblique;
+    margin-top: 20px;
+}
+
+p {
+    color: #b76e79;
+}
+
+img {
+    float: center;
+}
+
+ul {
+    color: #b76e79;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6eb7ac
+}
+

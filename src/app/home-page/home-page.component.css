@@ -1,0 +1,72 @@
+img{
+    width: auto;
+    height: auto;
+}
+
+p {
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#bio {
+    margin-top: 20px;
+}
+
+.profile-image {
+    min-width: 150px;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    background-image: url(../../assets/banner.jpg);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#carousel-flex, #wedding-flex {
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 5px 5px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #6eb7ac;
+    color: #fbefda;
+    border-color: #b76e79;
+}
+
+a {
+    color: #b76e79;
+}
+
+a:hover {
+    color: #6eb7ac;
+}
+
+@media all and (max-width: 450px) {
+    #wedding-flex {
+        flex-direction: column;
+
+    }
+
+    .bio {
+        flex-direction: column;
+    }
+
+    .request-button {
+        margin-bottom: 1rem;
+    }
+}
